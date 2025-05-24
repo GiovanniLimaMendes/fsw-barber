@@ -36,7 +36,10 @@ const Home = () => {
 
         {/* AGENDAMENTO */}
         <div>
-          <Card className="mt-6">
+          <h2 className="mb-3 mt-6 text-xs uppercase text-gray-400">
+            Agendamentos
+          </h2>
+          <Card>
             <CardContent className="flex justify-between p-0">
               {/* ESQUERDA */}
               <div className="flex flex-col gap-2 py-5 pl-5">
